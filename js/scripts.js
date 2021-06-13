@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".flashcards").click(function() {
-    $(this).children("p").toggle();
+  $("ul").click(function() {
+    $(this, 'li').toggle();
   });
 });
